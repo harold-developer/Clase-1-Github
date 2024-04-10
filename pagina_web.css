@@ -1,0 +1,45 @@
+.container-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+.box_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    background-image:url("./homework_resources/paris_banner.jpeg");
+    background-size: cover;
+    background-position: center;
+    /* background-image:linear-gradient(0deg, #00000080 0%, #00000080 100%), url("<paris_banner.jpeg>"); */
+}
+.box_img h4{
+    color: white;
+}
+.box_img h1{
+    color: white;
+}
+.gallery{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cointainer-gap{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.line{
+    margin-top: 30px;
+    height: 1px;
+    background-color: gray;
+}
+.container-space-between{
+    display: flex;
+    justify-content: center;
+}
+    
